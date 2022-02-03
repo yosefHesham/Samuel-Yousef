@@ -13,9 +13,21 @@
   <h1 id="title">Survey Form</h1>
   <p id="description">This is our Form</p>
   <form action="post" id="survey-form">
-    <input type="text" id="name" required>
+    <label for="name" id="name-label">Name</label>
     <br>
+
+    <input type="text" id="name" required>
+
+    <br>
+    <label for="email" id="email-label">Email</label>
+    <br>
+
     <input type="email" id="email" required>
+    <br>
+    <label for="name" id="number-label">Number</label>
+    <br>
+
+    <input type="number" id="number" min="5" max="10">
 
   </form>
   <script src="js/index.js"></script>
